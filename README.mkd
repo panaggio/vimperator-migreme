@@ -1,0 +1,38 @@
+# migre.me for Vimperator
+
+Shoten your links with migre.me directly from vimperator console.
+
+## Installation
+
+Get a copy of migre.me vimperator code inside you `.vimperator/plugin` directory:
+
+  cd ~/.vimperator/plugin # or equivalent
+  git clone git://github.com/panaggio/vimperator-migreme.git migreme
+
+Create a symbolic link to migreme.js inside the `plugin` directory:
+
+  ln -s migreme/migrme.js migreme.js
+
+Source `migreme.js` from Vimperator:
+
+  :source ~/.vimperator/plugin/migreme.js
+
+## Usage
+
+There are two ways to shorten URLs using migre.me from Vimperator:
+
+ * shotening the current tab URL:
+
+        :migreme
+
+ * shotening a given URL:
+
+        :migreme http://the.url.you.d.like.to.shorten
+
+## Maintainer
+
+* Ricardo Panaggio - http://panaggio.net
+
+## License
+
+The same license of Is.gd by Carl Sverre. As soon as that license is discovery, it'll be update here.
